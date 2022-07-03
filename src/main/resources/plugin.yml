@@ -1,0 +1,11 @@
+name: QuizPlugin
+version: '1'
+main: extremjaws.quizplugin.QuizPlugin
+api-version: 1.19
+authors: [ extremjaws ]
+description: A simple quiz plugin
+commands:
+  quiz:
+    description: Calls a quiz question
+    aliases: q
+    usage: /quiz <question> <answer>
